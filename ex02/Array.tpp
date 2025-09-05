@@ -6,7 +6,7 @@
 /*   By: aelaaser <aelaaser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/05 20:26:50 by aelaaser          #+#    #+#             */
-/*   Updated: 2025/09/05 21:16:51 by aelaaser         ###   ########.fr       */
+/*   Updated: 2025/09/05 23:10:46 by aelaaser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,10 @@ Array<T>::Array()
 }
 
 template<typename T>
-Array<T>::Array(unsigned int size)
+Array<T>::Array(unsigned int _len)
 {
+	len = _len;
 	arr = new T[len];
-	len = size;
 	//std::cout << "Array void constructor called\n";
 }
 
