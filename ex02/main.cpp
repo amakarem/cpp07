@@ -6,11 +6,13 @@
 /*   By: aelaaser <aelaaser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/05 20:37:52 by aelaaser          #+#    #+#             */
-/*   Updated: 2025/09/05 21:25:15 by aelaaser         ###   ########.fr       */
+/*   Updated: 2025/09/05 23:12:03 by aelaaser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string>
+#include <cstdlib>
+#include <ctime> 
 #include "Array.hpp"
 
 int main() {
