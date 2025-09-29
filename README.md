@@ -18,4 +18,4 @@ This repository contains solutions for the C++ Module 07 at 42 School, focusing 
 
    ```bash
    git clone https://github.com/amakarem/cpp07.git
-   cd cpp07```
+   cd cpp07
